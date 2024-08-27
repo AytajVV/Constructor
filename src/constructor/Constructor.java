@@ -5,6 +5,8 @@
  */
 package constructor;
 
+
+
 /**
  *
  * @author aytaj.veyisli
@@ -16,6 +18,36 @@ public class Constructor {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+//        User u = new User();
+//        u.setName("cherry");
+//        u.setAge(9);
+//        
+//        
+//        System.out.println(u.getName()); //burda teyin elediyimiz gosterilecek
+//        System.out.println(u.getSurname()); //surname teyin etmemisik deye constructorda yazdigimiz default deyer gosterilecek
+//        System.out.println(u.getAge()); //burda teyin elediyimiz gosterilecek
+        
+        
+//        new User(); //obyekti yaratdim hech bir deyisene menimsetmedim havada qalib sirf objectCountun artmagini gormek ucun 
+//        new User();
+//        new User();
+//        new User();
+//        new User();
+//        new User();
+//        new User();
+//        new User();
+//        new User();
+//        new User();
+//        System.out.println(User.objectCount);
+//        
+
+
+
+        User.foo(); // rekursiv metodu cagirdi 
+        
     }
+    
+    
     
 }
